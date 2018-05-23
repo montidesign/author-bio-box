@@ -66,7 +66,7 @@ class Author_Bio_Box_Frontend {
 		$social = apply_filters( 'authorbiobox_social_data', array(
 			'website'    => get_the_author_meta( 'user_url' ),
 			'facebook'   => get_the_author_meta( 'facebook' ),
-			'twitter'    => get_the_author_meta( 'twitter' ),
+			'twitter'    => "https://twitter.com/" . get_the_author_meta( 'twitter' ),
 			'googleplus' => get_the_author_meta( 'googleplus' ),
 			'linkedin'   => get_the_author_meta( 'linkedin' ),
 			'flickr'	 => get_the_author_meta( 'flickr' ),
